@@ -292,7 +292,7 @@ rs-module .no-slides-text{font-weight:bold;text-align:center;padding-top:80px;}
 
 
 rs-slides, rs-slide, rs-slide:before {	 position:absolute;text-indent: 0em;top:0px;left:0px;}
-rs-slide,rs-slide:before {  display:block; visibility:hidden; }
+rs-slide,rs-slide:before {  #display:block; #visibility:hidden; }
 
 .rs-layer .rs-untoggled-content { display:block;}
 .rs-layer .rs-toggled-content { display:none;}

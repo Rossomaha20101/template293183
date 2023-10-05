@@ -139,7 +139,9 @@
 #	filter: url(#blue-wash); opacity(1);
     }
 
-    .post-thumbnail::before, .elementor-image-box-img::before {
+    .elementor-element-aa37a4e::before, .elementor-element-9b255c3::before,
+    .elementor-element-910f046::before, .elementor-element-54871af::before, rs-slide:before,
+    .post-thumbnail-inner::before,.elementor-image-box-img::before {
         content: "";
         z-index: 1;
         display: block;
@@ -147,9 +149,16 @@
         width: 100%;
         background: var(--global-palette2);
         position: absolute;
+        visibility: visible;
+	transition: opacity 0.6s linear;
         filter: opacity(0.25);
 }
-    
+
+    .elementor-element-aa37a4e:hover::before, .elementor-element-9b255c3:hover::before,
+    .elementor-element-910f046:hover::before, .elementor-element-54871af:hover::before,
+    rs-slide:hover::before, .post-thumbnail-inner:hover::before, .elementor-image-box-img:hover::before {
+	opacity: 0;
+}
   </style>
 
 
@@ -1774,7 +1783,7 @@ RS_MODULES.modules["revslider11"] = {once: RS_MODULES.modules["revslider11"]!==u
     revapi:"revapi1",
     DPR:"dpr",
     sliderLayout:"fullwidth",
-    duration:"14500ms",
+    duration:"1450011ms",
     visibilityLevels:"1240,1024,778,480",
     gridwidth:"1903,1023,777,480",
     gridheight:"750,550,550,480",
