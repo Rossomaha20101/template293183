@@ -245,8 +245,9 @@
         width: 100%;
         background: rgb(0,0,0);
         position: absolute;
+	transition: opacity 0.6s linear;
         visibility: visible;
-        filter: opacity(0.20);
+        filter: opacity(0.10);
 }
 
     .elementor-element-9b255c3 div.elementor-custom-embed-image-overlay::before,
@@ -269,6 +270,13 @@
     .elementor-element-aa37a4e:hover::before,
     .elementor-element-910f046:hover::before, .elementor-element-54871af:hover::before,
     rs-slide:hover::before, .post-thumbnail-inner:hover::before, .elementor-image-box-img:hover::before {
+	opacity: 0;
+}
+
+    .elementor-element-9b255c3 div.elementor-custom-embed-image-overlay:hover::after,
+    .elementor-element-aa37a4e:hover::after,
+    .elementor-element-910f046:hover::after, .elementor-element-54871af:hover::after,
+    rs-slide:hover::after, .post-thumbnail-inner:hover::after, .elementor-image-box-img:hover::after {
 	opacity: 0;
 }
 
