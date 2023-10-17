@@ -4,6 +4,15 @@
 	font-weight: 800 !important;
     }
 
+    .elementor-icon-box-description, .post-description, .elementor-heading-title,
+    .elementor-image-box-description, .elementor-counter-title, .entry-title > a,
+    li.menu-item > a, ul.sub-menu > li.menu-item > a > span,
+    .wp-block-group__inner-container > *, .wp-block-group__inner-container>ul>li>a {
+	font-family: "ubuntu" !important;
+	font-weight: 450 !important;
+    
+    }
+
     body i {
 	font-family: "eicons" !important;
 	font-weight: 500 !important;
@@ -113,6 +122,15 @@
         filter: opacity(0.20);
 }
 
+    rs-slide:after {
+	filter: opacity(0.50);
+    }
+    
+    rs-layer {
+	text-shadow: 0 0px 5px var(--global-palette2);
+	color: white;
+    }
+
     .elementor-element-9b255c3 div.elementor-custom-embed-image-overlay::before,
     .elementor-element-aa37a4e::before,
     .elementor-element-910f046::before, .elementor-element-54871af::before, rs-slide:before,
@@ -152,4 +170,18 @@
 	border-radius: 10px;
 	margin-top: 2rem;
 	box-shadow: 0px 0px 5px var(--global-istp-palette-dark)
+    }
+
+
+    .button {
+	background-image: linear-gradient(
+ to right,
+  #462523 0,
+  #cb9b51 22%, 
+  #f6e27a 45%,
+  #f6f2c0 50%,
+  #f6e27a 55%,
+  #cb9b51 78%,
+  #462523 100%
+);
     }
