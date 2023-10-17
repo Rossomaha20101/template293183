@@ -13,7 +13,7 @@
     
     }
     
-    .wp-block-group__inner-container>ul>li {
+    .wp-block-group__inner-container>ul>li, .wp-block-group__inner-container>h4 {
 	padding-left: 10px;
     }
     
