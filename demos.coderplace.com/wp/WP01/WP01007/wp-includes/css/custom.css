@@ -174,14 +174,5 @@
 
 
     .button {
-	background-image: linear-gradient(
- to right,
-  #462523 0,
-  #cb9b51 22%, 
-  #f6e27a 45%,
-  #f6f2c0 50%,
-  #f6e27a 55%,
-  #cb9b51 78%,
-  #462523 100%
-);
+#	background-image: radial-gradient(ellipse at 100% 50%, rgba(178,187,46,1) 0%, rgba(177,133,59,1) 29%, rgba(33,23,12,1) 90%);
     }
