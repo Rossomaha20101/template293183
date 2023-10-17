@@ -7,7 +7,9 @@
     .elementor-icon-box-description, .post-description, .elementor-heading-title,
     .elementor-image-box-description, .elementor-counter-title, .entry-title > a,
     li.menu-item > a, ul.sub-menu > li.menu-item > a > span,
-    .wp-block-group__inner-container > *, .wp-block-group__inner-container>ul>li>a {
+    .wp-block-group__inner-container > *, .wp-block-group__inner-container>ul>li>a,
+    .woocommerce-product-details__short-description>p,
+    .woocommerce-Tabs-panel>p {
 	font-family: "ubuntu" !important;
 	font-weight: 450 !important;
     
