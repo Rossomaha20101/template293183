@@ -389,7 +389,6 @@ body .single-content h2 {
 	font-weight: 700;
 	font-size: 30px;	
 	letter-spacing: 0.3px;
-	text-transform: capitalize;
 	color: var(--global-palette3);
 }
 .comment-respond {
