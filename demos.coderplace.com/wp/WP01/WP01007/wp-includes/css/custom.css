@@ -13,6 +13,10 @@
     
     }
     
+    .wp-block-group__inner-container>ul>li {
+	padding-left: 10px;
+    }
+    
     li:hover {
 	box-shadow: inset 0px 0px 10px var(--global-palette2);
     }
