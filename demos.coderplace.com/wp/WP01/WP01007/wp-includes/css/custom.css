@@ -12,6 +12,10 @@
 	font-weight: 450 !important;
     
     }
+    
+    li:hover {
+	box-shadow: inset 0px 0px 10px var(--global-palette2);
+    }
 
     body i {
 	font-family: "eicons" !important;
