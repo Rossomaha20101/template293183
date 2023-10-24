@@ -16,9 +16,8 @@
     .wp-block-group__inner-container > *, .wp-block-group__inner-container>ul>li>a,
     .woocommerce-product-details__short-description>p,
     .woocommerce-Tabs-panel>p {
-#	font-family: "ubuntu" !important;
-#	font-weight: 450 !important;
-    
+		font-family: "ubuntu" !important;
+		font-weight: 450 !important;
     }
     
     .wp-block-group__inner-container>ul>li, .wp-block-group__inner-container>h4 {
